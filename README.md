@@ -433,6 +433,11 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 ```
 **Do the same for home.component.ts**
 
+Add the following line at the end of **app.component.html**
+```html
+<router-outlet></router-outlet>
+```
+
 Just one more thing to go, open **header.component.html** and replace the anchor tags with the following:
 ```html
 <a [routerLink]="['']">Home</a>
