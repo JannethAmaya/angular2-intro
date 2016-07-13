@@ -31,7 +31,7 @@ This will create a new directory for us with all the resources that we need to g
 $ cd menon-de-oro
 ```
 
-Now, let's **start the dev server** with the followign command:
+Now, let's **start the dev server** with the following command:
 ```bash
 $ ng serve
 ```
@@ -231,7 +231,7 @@ it('should accept values in the constructor', () => {
     expect(menon.gender).toEqual('F');
   });
 ```
-once you saved the file, run the following command:
+once the file is saved, run the following command:
 ```bash
 ng test
 ```
@@ -389,7 +389,7 @@ Open **menones.component.html** and replace its content with:
 ```
 **remember to add MenonesComponent to AppComponent** now you know how to do that!
 
-OK, so far so good, no its time to make our routes work! to be able to move from one component to another.
+OK, so far so good, now its time to make our routes work! to be able to move from one component to another.
 
 ## Adding app.routes.ts
 Create a new typescript file inside app folder and name it app.routes.ts and add the following:
